@@ -67,7 +67,46 @@ header {
   font-size: 48px;
   font-weight: 700;
 }
-
+/* Welcome section start  */
+.welcome-section {
+  margin: 50px 140px;
+}
+.welcome-section .welcome {
+  background-image: url(Images/Vectorrr.png);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.welcome-description {
+  text-align: center;
+  padding-left: 40px;
+}
+.welcome-description > h3 {
+  padding-top: 50px;
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+.welcome-description > p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+}
+.welcome-description a> button{
+  font-size: 20px;
+  margin-top: 120px;
+  color: #FFF;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #FFF;
+  background: none;
+}
+/* Welcome section end  */
 /* Venue section style */
 .venue-section {
   background: linear-gradient(
@@ -286,38 +325,36 @@ header {
 .btn-section input[type="button"] {
   border-radius: 0px 50px 50px 0px;
   background: #f00;
-  color:#FFF;
+  color: #fff;
 }
 
 /* Footer section style Start */
-.footer-section{
+.footer-section {
   background: #070211;
-  color: #FFFF;
+  color: #ffff;
   padding: 70px;
 }
-.footer-section hr{
+.footer-section hr {
   background: rgba(255, 255, 255, 0.15);
 }
-.footer-section .footer1{
+.footer-section .footer1 {
   display: flex;
   padding: 20px;
   justify-content: space-between;
-  
-
 }
-.footer-section .call{
+.footer-section .call {
   text-align: center;
 }
-.footer-icon{
+.footer-icon {
   text-align: center;
   padding: 25px;
 }
-.footer2{
+.footer2 {
   display: flex;
   justify-content: space-between;
   padding: 25px;
 }
-.footer2 a{
-  color: #1877F2;
+.footer2 a {
+  color: #1877f2;
   text-decoration: none;
 }

@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-family: "Merriweather", serif;
+}
+
+/* Header style start */
+header {
+  margin: 0 140px;
+}
+.banner {
+  background-image: url(Images/Banner\ Image.png);
+  border-radius: 16px;
+  background-size: 100% auto;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  position: relative;
+  justify-content: center;
+}
+.banner-article {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  position: absolute;
+}
+.banner-title {
+  font-size: 30px;
+}
+.banner-description {
+  font-size: 72px;
+}
+
+/* Offer section style */
+.offer {
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  margin: 20px 300px;
+}
+.offer > img {
+  max-width: 500px;
+  margin-top: 20px;
+}
+.offer-amount {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+
+.Holiday-offer {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.catagories {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+/* Venue section style */
+.venue-section {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 130px;
+}
+.venue {
+  text-align: center;
+  padding: 100px 0;
+}
+.venue > p {
+  font-size: 30px;
+}
+.venue span {
+  color: #f00;
+}
+.venue button {
+  border-radius: 8px;
+  margin-top: 30px;
+  background: #f00;
+  border: none;
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+}
+
+/* Coming section style */
+.coming-section {
+  margin: 50px 140px;
+}
+.coming-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.coming .Ellipse {
+  border-radius: 463px;
+  border: 12px solid #f00;
+  padding: 15px;
+}
+.Ellipse {
+  margin: 0px 60px;
+}
+.coming > .year {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.coming > .coming-title {
+  color: #f00;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+}
+.coming > .coming-soon {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+}
+.coming .coming-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+}
